@@ -1,0 +1,27 @@
+.home-container {
+  width: 100vw;
+  height: 88vh;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  background-size: cover;
+  color: #ffffff;
+}
+.inner-home {
+  width: 40%;
+}
+.inner-home h1 {
+  font-size: 48px;
+}
+.inner-home p {
+  font-size: 18px;
+}
+.job-btn {
+  padding: 10px 18px;
+  color: #ffffff;
+  background-color: #4f46e5;
+  border-radius: 8px;
+}

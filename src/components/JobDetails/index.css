@@ -1,0 +1,113 @@
+.detailsCard {
+  background-color: #000000;
+  padding: 40px 80px;
+  height: 100%;
+}
+#title {
+  font-size: 18px;
+}
+.detail-inner-card {
+  padding: 20px;
+  background-color: #272727;
+  border-radius: 15px;
+  color: #ffffff;
+}
+.url-design {
+  /* text-decoration: none; */
+  color: #6366f1;
+}
+a {
+  text-decoration: none;
+}
+.bottom-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head1 {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.skills-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  margin-bottom: 40px;
+}
+.skills-list li {
+  width: 250px;
+  height: 100px;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+.li-img {
+  height: 40px;
+}
+.para {
+  font-size: 22px;
+}
+.life {
+  display: flex;
+  align-self: flex-start;
+  padding: 5px 5px;
+}
+.life-img {
+  padding: 10px;
+  width: 70vw;
+  height: 200px;
+  border-radius: 18px;
+}
+.para1 {
+  font-size: 15px;
+  padding-right: 20px;
+  font-weight: 400;
+  padding: 5px;
+  font-family: 'Roboto';
+}
+#para2 {
+  font-size: 15px;
+}
+.similar-card {
+  margin-top: 40px;
+}
+.similar-lists {
+  display: flex;
+  align-items: center;
+}
+.simi-outer {
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+}
+.job-fail-img {
+  height: 60vh;
+  margin-top: 40px;
+}
+.failure {
+  display: flex;
+  height: 88vh;
+  background-color: #000000;
+  color: #ffffff;
+  align-items: center;
+  flex-direction: column;
+}
+.f1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  color: rgb(240, 208, 64);
+}
+#p {
+  color: #ffffff;
+  margin-left: 10px;
+}
+.loader-container {
+  display: flex;
+  height: 88px;
+  align-items: center;
+  justify-content: center;
+}
